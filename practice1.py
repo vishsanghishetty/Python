@@ -5,27 +5,28 @@
 #reversed(list)
 
 #########
-# def reverse_string(str):
-#     str_list = (list(str))
-#
-#     new_str_list = list(reversed(str_list))
-#
-#     print(new_str_list)
-#     str1 = ""
-#     return print(str1.join(new_str_list))
-#
-#
-# reverse_string("Hello!")
+def reverse_string(str):
+    str_list = (list(str))
+
+    new_str_list = list(reversed(str_list))
+
+    #print(new_str_list)
+    str1 = ""
+    return print(''.join(new_str_list))
+   #return print(str1.join(new_str_list))
+
+
+reverse_string("Hello!")
 
 #########
 #list is equivalent to array, resizable and can have different data types
-def stringReverse(str):
-    strList = list(str)
-    #print(strList)
-
-    for item in reversed(strList):
-        print(item)
-
-stringReverse("Pilot")
+# def stringReverse(str):
+#     strList = list(str)
+#     #print(strList)
+#
+#     for item in reversed(strList):
+#         print(item)
+#
+# stringReverse("Pilot")
 
 
